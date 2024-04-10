@@ -1,0 +1,34 @@
+{
+  "name": "{{name}}",
+  "version": "1.0.0",
+  "description": "{{description}}",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --declaration",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "quartz",
+    "md",
+    "markdown",
+    "quartz-md",
+    "typescript",
+    "obsidian"
+  ],
+  "author": {
+    "name": "{{author}}"
+  },
+  "license": "{{license}}",
+  "dependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^5.4.5",
+    "@quartz-md/api": "git://github.com/OCDkirby/quartz-api.git#main"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts"
+}

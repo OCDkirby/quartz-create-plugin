@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+      "target": "esnext",
+      "module": "ESNext",
+      "declaration": true,
+      "strict": true,
+      "moduleResolution":"node",
+      "incremental": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true,
+      "esModuleInterop": true,
+      "outDir": "lib/",
+      "jsx": "react-jsx",
+      "jsxImportSource": "preact"
+  },
+	"include": [
+		"typings/**/*",
+		"**/*.ts",
+		"**/*.tsx"
+	]
+}
